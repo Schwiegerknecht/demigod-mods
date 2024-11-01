@@ -1,0 +1,1 @@
+Buffs.Item_Artifact_050.Affects.Evasion.Add = 20 -- Increase clock of elfinkind dodge to 20, up from 15

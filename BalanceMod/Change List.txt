@@ -1,0 +1,145 @@
+DA
+Warp Area: Added Debuff Immune (normally no debuff immunity)
+Elusiveness 10%,20%,30% Dodge (normally 5%,10%,15%)
+
+TB
+Mode Switch time 0.8 seconds (normally 1.5 seconds) 
+Consume Damage is 100,200,300,400,500 (normally 100,175,250,325,425)
+
+UB: 
+Base Speed 6.0 (normally 6.3)
+Diseased Claw 5%,10%,15% speed reduction (normally 5%,7%,10%)
+Bestial Wrath Duration 10,10,10,15 (normally 7,7,7,10)
+Foul Grasp Drain 83,166,249 (normally 83,125,166)
+
+Reg
+Angelic Fury mode: speed +5% (normally no speed bonus)
+Maim: 5%,10%,15% (normally 5%,7%,10%)
+DeadEye: Proc 10% (normally 3%)
+
+Oak: 
+Rally lasts 10 seconds (normally 5 seconds)
+
+Occ
+Ball Lightning Damage 25,50,75,100  (up from 20,25,30,35)
+
+QoT
+Uproot Range: 20,25,30,35 (normally 20)
+Entourage Damage 10,20,30 (normally 6,12,18)
+Compost Shambler Damage: 4,6,8,10,15,20 (normally 4,6,8,10,12,14)
+Mulch Time To Damage 0.5 sec (normally 2 sec)
+Spike Wave Cooldown 10,10,10 (normally 10,10,15)
+Gspike Mana Cost 425,500,675,750 (normally 500,500,675,750)
+
+Rook 
+Poison Arrow: Slow 15% (normally 10%)
+
+Sedna
+Yeti Damage: 30,60,90,120 (normally 30,37,44,51)
+Yeti Wild Swing Radius 3 (normally 2)
+Life's Child: Proc @ 50% life (normally 30%)
+Inspiring Roar: Evasion 20, Duration 10 (normally 15, 5)
+
+Lord Erebus:
+Bat Swarm II Range 25 (normally 30)
+NightCrawler Base Speed 6.3 (normally 6)
+NightCrawler Turn Rate 360 (normally 180)
+
+Items
+
+Boots
+-Sabatons: Cost 400 (normally 600)
+-Assassin's footguard: 10% Chance to do 1.5X critical (normally no critical hit chance)
+-Iron Walkers +450 Armor +1050 Mana (normally no armor / mana)
+-Desperate Boots: Activate on 50% Health (normally 30%) dodge 30% (normally 20%)
+
+Helms
+-Plate Visor: +260 Mana (normally no mana)
+-Theurgist's Hat: +70% mana, 10% proc (normally 35% mana / 5% proc)
+-Vinling Helm: 5% proc effect (up from 3%)
+
+Armor
+-Armor of Vengenance: +10 life per second (normally no life per second)
+-Groffling Warplate: Proc chance 5% (up from 1%)
+-Platemail of the Crusader: Proc Chance 3% (up from 1%)
+
+Gloves
+-Gauntlet's of Depair: Mana drain 525 (up from 300)
+-Slayer's Wraps: Damage 35 (normally 30)
+-DoomSpite: Cleave Radius 3 (normally 1.5) Proc Chance 50/33 (up from 25/16)
+
+Trinkets
+-Blood Stone Ring Cost 1250, LifeSteal 4% (normally 3%)
+-Warlord's Punisher: Range = 20 (up from 15), 0.3 cast time (normally 1), chain radius 8 (normally 5)
+-Ring of the Ancients: +10% Attack Speed (normally no attack speed)
+-WarpStone: Instant Cast (normally 0.3 Second Cast)
+
+Consumables
+-Robust Rejuv: Cost 400 (normally 450)
+-Hex Scroll: Cost 150 (normally 250)
+-Scroll of Restoration: Cost 150 (normally 250)
+
+Artifact Consumables
+-Enhanced Health: Cost 400 (normally 800)
+-Enhanced Mana: Cost 400 (normally 1000)
+-Revitalization Elixir: Cost 500 (normally 1000)
+-Supreme Health: Cost 750 (normally 1200)
+-Supreme Mana: Cost 750 (normally 1500)
+-Supreme Revitalization Elixir: Cost 900 (normally 1500)
+
+Artifacts:
+-Cloak of Elfinkind: Dodge 20 (normally 15)
+
+Favor Items:
+
+Standard
+-Goggles: 10% chance to do 1.5x damage (normally no crit chance)
+-Charm of Life +10 Health Per Second (normally 5)
+-Brilliant Bauble: +250 Health +175 mana (normally none)
+-Blood of the Fallen +600 life (normally +800)
+-Staff of the Warmage: +1050 mana (normally 800)
+-Diamond Pendant: Mana 525 (up from 250) Cooldown 13% (up from 10%)
+-Amulet of Teleportation: Cooldown 30 (normally 45)
+-Cape of Plentiful Magic: Radius 15 (normally 8)
+-Saam-Els Cloak: +10% Movement (up from +5%)
+-Wings of the Seraphim: Radius 15 (normally radius 8) 
+
+Assassin
+-Poison Dagger: 10% Attack Speed (normally 5%)
+-Essence of Magic: Cooldown 30 (normally 45)
+-Furious Blade: +250 Life (normally +100)
+
+Generals
+-Chared Totem of War: Damage 30, Minion Attack Speed 5% (normally 15 damage, no minion attack speed)
+-Pendant of Grace: +20 dodge for demigod and minions (normally +10% for demigods, +15% for minions)
+-Horn of Battle: +100 Minion life over 10 seconds (normally 50 life over 20 sec)
+-Blood Soaked Wand: 1 second cast (normally 2 seconds)
+-Cloak of the Night: Cooldown 45 (normally 60)
+
+Reinforcements:
+
+-Angels
+Damage 90 (normally 45)
+Targeting Prioirty: Catapultasauri -> Priests -> Everything
+
+-Catapultasauri
+Targeting Priority: Demigods -> Structures -> Everything
+
+-Priests
+Targeting Priority: Demigods -> Structures -> Everything
+
+Citadel Upgrades:
+-Armory1 = 500 (normally 600
+-Armory2 = 1500 (normally 1800)	
+-Armory3 = 2500 (normally 3000)
+-Armory4 = 3500 (normally 4800)
+
+-GraveYard1 = 500 (normally 600)
+-GraveYard2 - 1500 (normally 1800)
+-Graveyard3 = 3500 (normally 5400)
+
+-Trebuchets = 2500 (normally 3200)
+-Finger of God = 3500 (normally 4000)
+
+-Gold2 = Produce 4 gold (normally 2)
+-Gold3 = Produce 4 gold (normally 2)

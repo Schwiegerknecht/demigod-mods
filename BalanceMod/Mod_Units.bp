@@ -1,0 +1,178 @@
+UnitBlueprint {
+   BlueprintId = "hepa01",
+   Merge = true,
+   Physics = {
+   MaxSpeed = 6.0, # 6.3
+       },
+   }
+   UnitBlueprint {
+   BlueprintId = "hvampirevampire01",
+   Merge = true,
+   Physics = {
+   MaxSpeed = 6.3, # 6.0
+   TurnRate = 360, #180
+       },
+   }
+UnitBlueprint {
+	BlueprintId = 'hoculusblightning01',
+	Merge = true,
+	Weapon = {
+		{
+		Damage = 25,
+		},
+	},
+	}
+UnitBlueprint {
+	BlueprintId = 'hoculusblightning02',
+	Merge = true,
+	Weapon = {
+		{
+			Damage = 50,
+		},
+	},
+	}
+UnitBlueprint {
+	BlueprintId = 'hoculusblightning03',
+	Merge = true,
+	Weapon = {
+		{
+			Damage = 75,
+		},
+	},
+	}
+UnitBlueprint {
+	BlueprintId = 'hoculusblightning04',
+	Merge = true,
+	Weapon = {
+		{
+			Damage = 100,
+		},
+	},
+	}
+UnitBlueprint {
+   BlueprintId = "rpriest01",
+   Merge = true,
+	Weapon = {
+		{
+		TargetPriorities = {
+		'HERO',
+		'DEFENSE',
+		'ALLUNITS',
+		},
+	},
+   },
+   }
+UnitBlueprint {
+   BlueprintId = "rcatapultasaurus01",
+   Merge = true,
+	Weapon = {
+   	{
+	TargetPriorities = {
+		'HERO',
+		'DEFENSE',
+		'ALLUNITS',
+		},
+		},
+	},
+	}
+UnitBlueprint {
+   BlueprintId = "rangel01",
+   Merge = true,
+   Weapon = {
+   	{
+   	Damage = 90,
+	TargetPriorities = {
+ 		'CATAPULTASAURUS',
+		'PRIEST',
+                'ALLUNITS',
+	},
+	},
+   },
+   }  
+UnitBlueprint {
+	BlueprintId = "ugbshop07",
+	Merge = true,
+	Shop = {
+	Tree = {
+            # Robust Rejuvenation Elixir
+            Item_Large_Rejuv_Elixir = {
+                Cost = 375,
+                ItemBP = 'Item_Large_Rejuv_Elixir',
+            },
+	  # Hex Scroll
+            Item_Consumable_100 = {
+                Cost = 150,
+                ItemBP = 'Item_Consumable_100',
+            },
+	    # Restorative Scroll
+            Item_Consumable_090 = {
+                Cost = 150,
+                ItemBP = 'Item_Consumable_090',
+            },
+	},
+	},
+}
+UnitBlueprint {
+	BlueprintId = "ugbshop05consumables",
+	Merge = true,
+	Shop = {
+	Tree = {
+	    # Combat Health
+            Item_Health_Potion_Art = {
+                Cost = 375,
+                ItemBP = 'Item_Health_Potion_Art',
+            },
+            # Large Health
+            Item_Large_Health_Potion_Art = {
+                Cost = 750,
+                ItemBP = 'Item_Large_Health_Potion_Art',
+            },
+            # Combat Mana
+            Item_Mana_Potion_Art = {
+                Cost = 400,
+                ItemBP = 'Item_Mana_Potion_Art',
+            },
+            # Large Mana
+            Item_Large_Mana_Potion_Art = {
+                Cost = 750,
+                ItemBP = 'Item_Large_Mana_Potion_Art',
+            },
+            # Combat Rejuv
+            Item_Rejuv_Elixir_Art = {
+                Cost = 500,
+                ItemBP = 'Item_Rejuv_Elixir_Art',
+            },
+            # Large Rejuv
+            Item_Large_Rejuv_Elixir_Art = {
+                Cost = 900,
+                ItemBP = 'Item_Large_Rejuv_Elixir_Art',
+            },
+	},
+	},
+}
+UnitBlueprint {
+	BlueprintId = "ugbshop06",
+	Merge = true,
+	Shop = {
+	Tree = {
+		# Bloodstone Ring
+		Item_Ring_020 = {
+			Cost = 1250,
+			ItemBP = 'Item_Ring_020',
+		},
+		},		
+	},
+}
+UnitBlueprint {
+	BlueprintId = "ugbshop10",
+	Merge = true,
+	Shop = {
+	Tree = {
+		# Footman's Sabatons
+		 Item_Boot_010 = {
+			Cost = 400,
+			ItemBP = 'Item_Boot_010',
+		},
+		},		
+	},
+}
