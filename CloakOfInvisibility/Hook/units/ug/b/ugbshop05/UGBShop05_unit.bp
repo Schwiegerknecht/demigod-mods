@@ -1,0 +1,165 @@
+UnitBlueprint {
+	Merge = true,
+
+    Shop = {
+        Tree = {
+			# Cloak of Invisibility
+            Item_Artifact_030 = {
+                Cost = 8000,
+                ItemBP = 'Item_Artifact_030',
+            },
+        },
+    },
+}
+
+
+--[[
+#################################################################################################################
+# Artifact Shop
+# Items defined in //depot/forge/main/bindata/lua/common/Items/Artifact_Items.lua
+#################################################################################################################
+UnitBlueprint {
+    Audio = {
+        UISelection = {
+            Sound = 'Forge/UI/snd_placeholder_placeholder',
+        },
+    },
+    Categories = {
+        'ARTIFACTSHOP',
+        'INVULNERABLE',
+        'LAND',
+        'NOSPLASHDAMAGE',
+        'OCCUPYGROUND',
+        'PRELOADRESOURCES',
+        'SCRIPTEDACTION',
+        'SELECTABLE',
+        'SHOP',
+        'STRUCTURE',
+        'UNTARGETABLE',
+        'VISIBLETORECON',
+    },
+    Defense = {
+        ArmorType = 'Structure',
+        Health = 13000,
+        MaxHealth = 13000,
+        RegenRate = 1,
+        SurfaceThreatLevel = 0,
+    },
+    Rollover = {
+        Source = 'RolloverBlock',
+        Description = '<LOC UNIT_DESC_0050>A shop selling powerful and expensive artifacts.',
+    },
+    Display = {
+        BuildUnitHeight = 20,
+        IconName = '/textures/ui/common/abilities/icons/ShopArtifact.dds',
+        MeshBlueprint = '/units/ug/b/ugbShop05/ugbShop05_mesh',
+        MeshBlueprintEvil = '/units/ug/b/ugbShop05/ugbShop05_evil_mesh',
+        MouseOverIcon = 'artifactshop.dds',
+        UniformScale = 0.20,
+    },
+    Effects = {
+        Ambient = {
+            Base = 'Shop05',
+            Template = 'Ambient01',
+        },
+        BuffClassification = 'Large',
+    },
+    Footprint = {
+        SizeX = 3,
+        SizeZ = 3,
+    },
+    General = {
+        CapCost = 0,
+        SelectionPriority = 50,
+    },
+    Intel = {
+        VisionRadius = 10,
+    },
+    LifeBarRender = false,
+    Name = '<LOC UNIT_NAME_0054>Artifact Shop',
+    ScriptedAction = '/lua/user/ShopAction.lua',
+    SelectionSizeX = 6,
+    Shop = {
+        Layout = '/units/ug/b/ugbshop05/UGBShop05_ShopLayout.lua',
+        Tree = {
+            # Bracelet of Rage
+            Item_Artifact_010 = {
+                Cost = 14000,
+                ItemBP = 'Item_Artifact_010',
+            },
+            # Mage Slayer
+            Item_Artifact_020 = {
+                Cost = 8000,
+                ItemBP = 'Item_Artifact_020',
+            },
+            # Cloak of Invisibility
+            Item_Artifact_030 = {
+                Cost = 8000,
+                ItemBP = 'Item_Artifact_030',
+            },
+            # Cloak of Flames
+            Item_Artifact_040 = {
+                Cost = 10000,
+                ItemBP = 'Item_Artifact_040',
+            },
+            # Cloak of Elfinkind
+            Item_Artifact_050 = {
+                Cost = 12000,
+                ItemBP = 'Item_Artifact_050',
+            },
+            # Heart of Life
+            Item_Consumable_160 = {
+                Cost = 12000,
+                ItemBP = 'Item_Consumable_160',
+            },
+            # Unmaker
+            Item_Artifact_060 = {
+                Cost = 15000,
+                ItemBP = 'Item_Artifact_060',
+            },
+            # Deathbringer
+            Item_Artifact_070 = {
+                Cost = 20000,
+                ItemBP = 'Item_Artifact_070',
+            },
+            # Stormbringer
+            Item_Artifact_080 = {
+                Cost = 17500,
+                ItemBP = 'Item_Artifact_080',
+            },
+            # Girdle of the Giants
+            Item_Artifact_090 = {
+                Cost = 13000,
+                ItemBP = 'Item_Artifact_090',
+            },
+            # Ashkandor
+            Item_Artifact_100 = {
+                Cost = 18000,
+                ItemBP = 'Item_Artifact_100',
+            },
+            # Orb of Veiled Storms
+            Item_Artifact_110 = {
+                Cost = 8000,
+                ItemBP = 'Item_Artifact_110',
+            },
+            # Bulwark of Ages
+            Item_Artifact_120 = {
+                Cost = 16000,
+                ItemBP = 'Item_Artifact_120',
+            },
+            # All Father's Ring
+            Item_Artifact_130 = {
+                Cost = 25000,
+                ItemBP = 'Item_Artifact_130',
+            },
+        },
+    },
+    SizeX = 5,
+    SizeY = 5,
+    SizeZ = 5,
+    Steering = {
+        RepulseCoeff = 10.0,
+        Manual = true,
+    },
+}
+]]
