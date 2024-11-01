@@ -1,0 +1,89 @@
+Change List:
+
+You can now level up to level 30. As usually, from level 20 onwards, you drop
+HighLevel Potions if you die.
+
+The experience (XP) that you need to level up has been adjusted:
+
+- Up to level 10, you need more XP than normally, so the early game lasts
+  a bit longer.
+- Towards level 15, you need roughly the same amount as in a normal game.
+- And from level 15 onwards, you level faster than usually. With the XP you
+  usually need for level 20, you will here reach level 23.
+  Normally you need 25775 XP for level 20. Now you need 21200 for level 20
+  and 35200 for level 30.
+
+
+#--------------
+# OLD XP VALUES
+#--------------
+
+The total XP needed for each level in normal Demigod are the following:
+
+DefaultHeroExp = {
+        {Amount = 0       },#1
+        {Amount = 200     },#2
+        {Amount = 500     },#3
+        {Amount = 900     },#4
+        {Amount = 1400    },#5
+        {Amount = 2150    },#6
+        {Amount = 3025    },#7
+        {Amount = 4025    },#8
+        {Amount = 5150    },#9
+        {Amount = 6400    },#10
+        {Amount = 7775    },#11
+        {Amount = 9275    },#12
+        {Amount = 10900   },#13
+        {Amount = 12650   },#14
+        {Amount = 14525   },#15
+        {Amount = 16525   },#16
+        {Amount = 18650   },#17
+        {Amount = 20900   },#18
+        {Amount = 23275   },#19
+        {Amount = 25775   },#20
+        # The following values are in the game files, but are not used
+        #{Amount = 28750  },#21
+        #{Amount = 31500  },#22
+        #{Amount = 34375  },#23
+        #{Amount = 37375  },#24
+        #{Amount = 40500  },#25
+}
+
+#--------------
+# NEW XP VALUES
+#--------------
+
+They have been update like this:
+
+GameData.DefaultHeroExp = {
+    {Amount = 0,        },#1
+    {Amount = 200,      },#2
+    {Amount = 550,      },#3
+    {Amount = 1050,     },#4
+    {Amount = 1700,     },#5
+    {Amount = 2500,     },#6
+    {Amount = 3450,     },#7
+    {Amount = 4550,     },#8
+    {Amount = 5800,     },#9
+    {Amount = 7200,     },#10
+    {Amount = 8600,     },#11
+    {Amount = 10000,    },#12
+    {Amount = 11400,    },#13
+    {Amount = 12800,    },#14
+    {Amount = 14200,    },#15
+    {Amount = 15600,    },#16
+    {Amount = 17000,    },#17
+    {Amount = 18400,    },#18
+    {Amount = 19800,    },#19
+    {Amount = 21200,    },#20
+    {Amount = 22600,    },#21
+    {Amount = 24000,    },#22
+    {Amount = 25400,    },#23
+    {Amount = 26800,    },#24
+    {Amount = 28200,    },#25
+    {Amount = 29600,    },#26
+    {Amount = 31000,    },#27
+    {Amount = 32400,    },#28
+    {Amount = 33800,    },#29
+    {Amount = 35200,    },#30
+}
