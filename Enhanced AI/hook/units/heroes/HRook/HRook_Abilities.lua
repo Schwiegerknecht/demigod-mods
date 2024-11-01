@@ -1,0 +1,1 @@
+Ability.HRookPoison.TriggerChance = 30 --from 15
