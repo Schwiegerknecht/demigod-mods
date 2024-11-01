@@ -1,0 +1,2 @@
+--LORD-ORION: Adjust description of Theirgists hat: It is now a weapon proc (procs when you hit someone) but is incorrectly written like it is an armor proc (procs when you are hit)
+Items.Item_Helm_070.Tooltip.ChanceOnHit = '[GetProcChance]% chance on hit to reduce the target\'s Health Per Second by [GetProcRegenDebuff]% and Mana Per Second by [GetProcManaRegenDebuff]% for [GetDuration] seconds.'

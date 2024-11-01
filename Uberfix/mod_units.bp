@@ -1,0 +1,130 @@
+--Rook - Attack while moving fix, AI movement stutter fix
+UnitBlueprint {
+    BlueprintId = 'hrook',
+    Merge = true,
+    Weapon = {
+        [1] = {
+            CanFireWhileMoving = true,
+        },
+        [2] = {
+            Damage = 20, --from 5
+            RateOfFire = 0.5, --from 2
+        },
+        [3] = {
+            Damage = 20, --from 5
+            RateOfFire = 0.5, --from 2
+        },
+        [4] = {
+            Damage = 20, --from 5
+            RateOfFire = 0.5, --from 2
+        },
+        [5] = {
+            Damage = 20, --from 5
+            RateOfFire = 0.5, --from 2
+        },
+        [6] = {
+            Damage = 20, --from 5
+            RateOfFire = 0.5, --from 2
+        },
+        [7] = {
+            Damage = 20, --from 5
+            RateOfFire = 0.5, --from 2
+        },
+        [8] = {
+            Damage = 28, --from 7
+            RateOfFire = 0.5, --from 2
+        },
+        [9] = {
+            Damage = 28, --from 7
+            RateOfFire = 0.5, --from 2
+        },
+        [10] = {
+            Damage = 28, --from 7
+            RateOfFire = 0.5, --from 2
+        },
+        [11] = {
+            Damage = 28, --from 7
+            RateOfFire = 0.5, --from 2
+        },
+        [12] = {
+            Damage = 28, --from 7
+            RateOfFire = 0.5, --from 2
+        },
+        [13] = {
+            Damage = 28, --from 7
+            RateOfFire = 0.5, --from 2
+        },
+    },
+}
+
+--Rook:TOL/Trebuchet - attempt at stuck target prevention
+UnitBlueprint {
+    BlueprintId = 'hrooktol',
+    Merge = true,
+    Weapon = {
+        { AlwaysRecheckTarget = true, },
+    },
+}
+UnitBlueprint {
+    BlueprintId = 'hrooktrebuchet',
+    Merge = true,
+    Weapon = {
+        { AlwaysRecheckTarget = true, },
+    },
+}
+
+
+--Oculus - force rechecking on targets that are too close
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = 'hoculus',
+    Weapon = {
+        {
+            AlwaysRecheckTarget = true,
+            MinRadius = 1,
+        },
+    },
+}
+
+
+--Ball Lightning health bar fix and formation movement fix
+UnitBlueprint {
+    BlueprintId = 'hoculusblightning01',
+    Merge = true,
+    LifeBarHeight = 0.5, # 0.1
+    LifeBarOffset = 5.5, # 1.5
+    LifeBarSize = 1.3, # 1.5
+    Steering = {
+        Manual = false,
+    },
+}
+UnitBlueprint {
+    BlueprintId = 'hoculusblightning02',
+    Merge = true,
+    LifeBarHeight = 0.5, # 0.1
+    LifeBarOffset = 5.5, # 1.5
+    LifeBarSize = 1.3, # 1.5
+    Steering = {
+        Manual = false,
+    },
+}
+UnitBlueprint {
+    BlueprintId = 'hoculusblightning03',
+    Merge = true,
+    LifeBarHeight = 0.5, # 0.1
+    LifeBarOffset = 5.5, # 1.5
+    LifeBarSize = 1.3, # 1.5
+    Steering = {
+        Manual = false,
+    },
+}
+UnitBlueprint {
+    BlueprintId = 'hoculusblightning04',
+    Merge = true,
+    LifeBarHeight = 0.5, # 0.1
+    LifeBarOffset = 5.5, # 1.5
+    LifeBarSize = 1.3, # 1.5
+    Steering = {
+        Manual = false,
+    },
+}

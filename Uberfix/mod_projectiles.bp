@@ -1,0 +1,29 @@
+### Projectile blueprint mods ###
+
+--TB weapon fireball
+ProjectileBlueprint {
+    Source = "/projectiles/fireball01/fireball01_proj.bp",
+    Merge = true,
+    Physics = {
+        Acceleration = 30,
+        MaxSpeed = 30,
+    },
+}
+--TB ability fireball
+ProjectileBlueprint {
+    Source = "/projectiles/fireball03/fireball03_proj.bp",
+    Merge = true,
+    Physics = {
+        Acceleration = 30,
+        MaxSpeed = 30,
+    },
+}
+--TB weapon frostball
+ProjectileBlueprint {
+    Source = "/projectiles/frostball01/frostball01_proj.bp",
+    Merge = true,
+    Physics = {
+        Acceleration = 40,
+        MaxSpeed = 40,
+    },
+}
